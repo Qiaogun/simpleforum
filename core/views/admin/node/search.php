@@ -9,7 +9,7 @@ use yii\helpers\Html;
 use yii\widgets\LinkPager;
 use yii\bootstrap4\ActiveForm;
 
-$this->title = Yii::t('app/admin', 'Search nodes');
+$this->title = Yii::t('app/admin', 'Search channels');
 ?>
 
 <div class="row">
@@ -19,7 +19,7 @@ $this->title = Yii::t('app/admin', 'Search nodes');
 <ul class="list-group sf-box">
     <li class="list-group-item sf-box-header sf-navi">
         <?php
-            echo Html::a(Yii::t('app/admin', 'Forum Manager'), ['admin/setting/all']), '&nbsp;/&nbsp;', Html::a(Yii::t('app/admin', 'Nodes'), ['admin/node/index']), '&nbsp;/&nbsp;', $this->title;
+            echo Html::a(Yii::t('app/admin', 'Forum Manager'), ['admin/setting/all']), '&nbsp;/&nbsp;', Html::a(Yii::t('app/admin', 'Channels'), ['admin/node/index']), '&nbsp;/&nbsp;', $this->title;
         ?>
     </li>
     <li class="list-group-item list-group-item-info"><strong><?php echo Yii::t('app', 'Search'); ?></strong></li>
@@ -46,14 +46,14 @@ $this->title = Yii::t('app/admin', 'Search nodes');
 ActiveForm::end();
 ?>
     </li>
-    <li class="list-group-item list-group-item-info"><strong><?php echo Yii::t('app', 'Node'); ?></strong></li>
+    <li class="list-group-item list-group-item-info"><strong><?php echo Yii::t('app', 'Channel'); ?></strong></li>
     <li class="list-group-item">
         <ul>
         <?php
             if( !empty($node) ) {
                 echo '<li>[', $node['id'], ']&nbsp;', Html::encode($node['name']), '&nbsp;(', $node['ename'], ')&nbsp;|&nbsp;', Html::a(Yii::t('app', 'Edit'), ['admin/node/edit', 'id'=>$node['id']]), '</li>';
             } else {
-                echo Yii::t('app', '{attribute} doesn\'t exist.', ['attribute'=>Yii::t('app', 'Node')]);
+                echo Yii::t('app', '{attribute} doesn\'t exist.', ['attribute'=>Yii::t('app', 'Channel')]);
             }
         ?>
         </ul>

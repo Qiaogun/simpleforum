@@ -74,7 +74,7 @@ return [
     'Forum Manager' => '论坛管理',
     'Settings' => '配置管理',
     'Third-party login' => '第三方帐号登录管理',
-    'Nodes' => '节点管理',
+    'Channel' => '版块管理',
     'Navigations' => '导航管理',
     'Tags' => '标签管理',
     'Points' => '积分管理',
@@ -114,15 +114,15 @@ return [
 /* navi */
     'Add a item' => '创建导航项目',
     'Edit a item' => '修改导航项目',
-    'Set Nodes' => '所属节点设定',
+    'Set Channels' => '所属版块设定',
     'Navigation Items' => '导航项目',
     'Type' => '类型',
     'Show' => '显示',
 /* node */
-    'Add a node' => '添加节点',
-    'Edit a node' => '修改节点',
-    'Search nodes' => '节点搜索',
-    'Node does not exist.' => '节点不存在。',
+    'Add a channel' => '添加版块',
+    'Edit a channel' => '修改版块',
+    'Search channels' => '版块搜索',
+    'Channel does not exist.' => '版块不存在。',
 /* plugin */
     'Installable plugins' => '可安装插件',
     'Uninstall' => '卸载',
@@ -154,7 +154,7 @@ return [
     'Operation' => '操作',
     'Edit a tag' => '修改标签',
 /* topic */
-    'Move Node'=>'转移主题节点',
+    'Move Channel'=>'转移主题版块',
 /* controllers/settingController */
     'Title' => '标识文字',
 /* controllers/pluginController */
@@ -203,7 +203,7 @@ return [
     'Number of topics per page' => '每页显示帖子数',
     'Number of comments per page' => '每页显示回复数',
     'Number of tot topics' => '最热主题数',
-    'Number of hot nodes' => '最热节点数',
+    'Number of hot channels' => '最热版块数',
     'Edit timer(mins)' => '可编辑时间(分)',
     'Time interval of topic(secs)' => '发表主题间隔(秒)',
     'Time interval of comment(secs)' => '发表回复间隔(秒)',

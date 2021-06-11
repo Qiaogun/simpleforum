@@ -7,7 +7,7 @@
 
 use yii\helpers\Html;
 
-$this->title = Yii::t('app/admin', 'Edit a node');
+$this->title = Yii::t('app/admin', 'Edit a channel');
 ?>
 
 <div class="row">
@@ -17,7 +17,7 @@ $this->title = Yii::t('app/admin', 'Edit a node');
 <div class="card sf-box">
 	<div class="card-header sf-box-header sf-navi">
 		<?php
-			echo Html::a(Yii::t('app/admin', 'Forum Manager'), ['admin/setting/all']), '&nbsp;/&nbsp;', Html::a(Yii::t('app/admin', 'Nodes'), ['index']), '&nbsp;/&nbsp;', $this->title;
+			echo Html::a(Yii::t('app/admin', 'Forum Manager'), ['admin/setting/all']), '&nbsp;/&nbsp;', Html::a(Yii::t('app/admin', 'Channels'), ['index']), '&nbsp;/&nbsp;', $this->title;
 		?>
 	</div>
 	<div class="card-body">

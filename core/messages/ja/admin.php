@@ -67,7 +67,7 @@ return [
     'Forum Manager' => 'フォーラム管理',
     'Settings' => '設定',
     'Third-party login' => 'サードパーティー設定',
-    'Nodes' => 'ノード管理',
+    'Channels' => 'ノード管理',
     'Navigations' => 'ナビ管理',
     'Tags' => 'タグ管理',
     'Points' => 'ポイント管理',
@@ -106,15 +106,15 @@ return [
 /* navi */
     'Add a item' => 'ナビ追加',
     'Edit a item' => 'ナビ変更',
-    'Set Nodes' => 'ノード設定',
+    'Set Channels' => 'ノード設定',
     'Navigation Items' => 'ナビ',
     'Type' => 'タイプ',
     'Show' => '表示',
 /* node */
-    'Add a node' => 'ノード追加',
-    'Edit a node' => 'ノード変更',
-    'Search nodes' => 'ノード検索',
-    'Node does not exist.' => 'ノードが存在していません。',
+    'Add a channel' => 'ノード追加',
+    'Edit a channel' => 'ノード変更',
+    'Search channels' => 'ノード検索',
+    'Channel does not exist.' => 'ノードが存在していません。',
 /* plugin */
     'Installable plugins' => 'インストール可のプラグ',
     'Uninstall' => 'アンインストール',
@@ -146,7 +146,7 @@ return [
     'Operation' => '操作',
     'Edit a tag' => 'タグ変更',
 /* topic */
-    'Move Node'=>'ノード移動',
+    'Move Channel'=>'ノード移動',
 /* controllers/settingController */
     'Title' => '標識文字',
 /* controllers/pluginController */
@@ -195,7 +195,7 @@ return [
     'Number of topics per page' => '一ページ表示トピック数',
     'Number of comments per page' => '一ページ表示コメント数',
     'Number of tot topics' => '人気トピック数',
-    'Number of hot nodes' => '人気ノード数',
+    'Number of hot channels' => '人気ノード数',
     'Edit timer(mins)' => '変更できる時間(分)',
     'Time interval of topic(secs)' => 'トピック発表間隔(秒)',
     'Time interval of comment(secs)' => 'コメント発表間隔(秒)',

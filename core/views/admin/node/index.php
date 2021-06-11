@@ -9,7 +9,7 @@ use yii\helpers\Html;
 use yii\widgets\LinkPager;
 use yii\bootstrap4\ActiveForm;
 
-$this->title = Yii::t('app/admin', 'Nodes');
+$this->title = Yii::t('app/admin', 'Channels');
 ?>
 
 <div class="row">
@@ -18,7 +18,7 @@ $this->title = Yii::t('app/admin', 'Nodes');
 
 <ul class="list-group sf-box">
     <li class="list-group-item sf-box-header sf-navi">
-        <span class='fr'><?php echo Html::a(Yii::t('app/admin', 'Add a node'), ['add']); ?></span>
+        <span class='fr'><?php echo Html::a(Yii::t('app/admin', 'Add a channel'), ['add']); ?></span>
         <?php
             echo Html::a(Yii::t('app/admin', 'Forum Manager'), ['admin/setting/all']), '&nbsp;/&nbsp;', $this->title;
         ?>
@@ -45,7 +45,7 @@ $this->title = Yii::t('app/admin', 'Nodes');
         ActiveForm::end();
     ?>
     </li>
-    <li class="list-group-item list-group-item-info"><strong><?php echo Yii::t('app', 'Node'); ?></strong></li>
+    <li class="list-group-item list-group-item-info"><strong><?php echo Yii::t('app', 'Channel'); ?></strong></li>
     <li class="list-group-item">
         <ul>
         <?php
