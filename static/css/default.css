@@ -460,19 +460,16 @@ header {
 }
 .sf-btn:not(.sf-box-info) {
     background-color: #42c01b !important; 
-    border-color: #4a550e !important;
+    border-color: #ffffff !important;
     color: #fff;
 }
 .sf-btn:not(.sf-box-info):hover {
-    background-color: #4e6e11 !important; 
-    border-color: #4a550e !important;
+    background-color: #26d47d !important; 
+    border-color: #42c01b !important;
 }
 .sf-box-header {
     color: #fff;
     background-color: #5DB534;
-}
-.sf-box-header .sf-btn:not(.sf-box-info) {
-    background-color: #65aa3e !important;
 }
 .sf-box-header a:not(.sf-box-info):link, .sf-box-header a:not(.sf-box-info):visited, .sf-box-header a:not(.sf-box-info):active {
     color: #5DB534 !important;
@@ -483,8 +480,14 @@ header {
 }
 .sf-box-header .sf-btn:not(.sf-box-info) {
     background-color: #fff !important;
-    color: #42c01b !important;
-    font-weight: bold;
+    color: #5DB534 !important;
+    font-weight: bold !important;
     border-color: white !important;
+}
+.sf-box-header a:not(.sf-box-info):link{
+    color: #fff !important;
+}
+.sf-box-header a:not(.sf-box-info):link, .sf-box-header a:not(.sf-box-info):visited{
+    color: #fff !important;
 }
 /* Customize Css Style End */
