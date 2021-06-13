@@ -126,7 +126,7 @@ if( !$isGuest ) {
     <!-- language selector end -->
 </ul>
 <div class="copyright">
-<span>Powered by <a href="http://simpleforum.org/" rel="external" target="_blank">SimpleForum <?php echo SIMPLE_FORUM_VERSION; ?></a></span>
+<span>Powered by <a href="https://acg-go.com/" rel="external" target="_blank">ACG-Go v1.0</a></span>
 <span><?php echo number_format( (microtime(true) - YII_BEGIN_TIME), 3) . 's'; ?></span>
 <?php echo !empty($settings['analytics_code'])?'<span>'.$settings['analytics_code'].'</span>':''; ?>
 </div>

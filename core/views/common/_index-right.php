@@ -39,7 +39,7 @@ $settings = Yii::$app->params['settings'];
       </div>
     </div>
         <ul class="list-inline text-center favorite-list">
-          <li class="list-inline-item"><?php echo Html::a($myInfo->favorite_node_count.'<br /><span class="gray">'.Yii::t('app', 'nodes').'</span>', ['my/nodes']); ?></li>
+          <li class="list-inline-item"><?php echo Html::a($myInfo->favorite_node_count.'<br /><span class="gray">'.Yii::t('app', 'channels').'</span>', ['my/nodes']); ?></li>
           <li class="list-inline-item"><?php echo Html::a($myInfo->favorite_topic_count.'<br /><span class="gray">'.Yii::t('app', 'topics').'</span>', ['my/topics']); ?></li>
           <li class="list-inline-item"><?php echo Html::a($myInfo->following_count.'<br /><span class="gray">'.Yii::t('app', 'following').'</span>', ['my/following']); ?></li>
         </ul>
@@ -115,7 +115,7 @@ if( !empty($siteinfo) ):
   <div class="card-header sf-box-header"><?php echo Yii::t('app', 'Forum\'s Information'); ?></div>
   <div class="card-body">
         <span class="si-label"><?php echo Yii::t('app', 'Members'); ?>:</span><span class="si-info"><?php echo $siteinfo['users']; ?></span>
-        <span class="si-label"><?php echo Yii::t('app', 'Nodes'); ?>:</span><span class="si-info"><?php echo $siteinfo['nodes']; ?></span>
+        <span class="si-label"><?php echo Yii::t('app', 'Channels'); ?>:</span><span class="si-info"><?php echo $siteinfo['nodes']; ?></span>
         <span class="si-label"><?php echo Yii::t('app', 'Topics'); ?>:</span><span class="si-info"><?php echo $siteinfo['topics']; ?></span>
         <span class="si-label"><?php echo Yii::t('app', 'Comments'); ?>:</span><span class="si-info"><?php echo $siteinfo['comments']; ?></span>
   </div>

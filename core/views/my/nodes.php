@@ -8,7 +8,7 @@
 use yii\helpers\Html;
 use yii\widgets\LinkPager;
 
-$this->title = Yii::t('app', 'My favorite nodes');
+$this->title = Yii::t('app', 'My favorite channels');
 ?>
 
 <div class="row">

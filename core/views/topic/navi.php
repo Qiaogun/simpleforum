@@ -89,7 +89,7 @@ if( empty($title) ) {
 if ( intval($settings['cache_enabled'])===0 || $this->beginCache('f-bottom-nodes', ['duration' => intval($settings['cache_time'])*60])) :
 ?>
 <ul class="list-group sf-box bottom-navi">
-    <li class="sf-box-header list-group-item"><span class="fr"><?php echo Html::a(Yii::t('app', 'All Nodes'), ['node/index']); ?></span><?php echo Yii::t('app', 'Node Navi'); ?>
+    <li class="sf-box-header list-group-item"><span class="fr"><?php echo Html::a(Yii::t('app', 'All Channels'), ['node/index']); ?></span><?php echo Yii::t('app', 'Channel Navi'); ?>
     </li>
 <?php
     $bNavis = Navi::getBottomNaviNodes();

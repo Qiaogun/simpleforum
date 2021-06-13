@@ -10,7 +10,7 @@ use app\models\Navi;
 use app\models\Node;
 
 $settings = Yii::$app->params['settings'];
-$this->title = Yii::t('app', 'All Nodes');
+$this->title = Yii::t('app', 'All Channels');
 ?>
 
 <div class="row">

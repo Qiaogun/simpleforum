@@ -47,7 +47,7 @@ $nodeName = Html::encode($node['name']);
             echo '<br />';
         }
             if (!$isGuest && $me->isActive() ) {
-                echo Html::a('<i class="fas fa-pencil-alt"></i>'.Yii::t('app', 'Add Topic'), ['topic/add', 'node'=>$node['ename']], ['class'=>'btn sf-btn mt-2']);
+                echo Html::a('<i class="fas fa-pencil-alt"></i>'.Yii::t('app', 'Add Topic'), ['topic/add', 'channel'=>$node['ename']], ['class'=>'btn sf-btn mt-2']);
             }
         ?>
     </li>

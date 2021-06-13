@@ -16,7 +16,7 @@ $session = Yii::$app->getSession();
 $settings = Yii::$app->params['settings'];
 
 $this->registerAssetBundle('app\assets\Select2Asset');
-$this->registerJs('$(".nodes-select2").select2({placeholder:"'. Yii::t('app', 'Please select a node').'",allowClear: true});');
+$this->registerJs('$(".nodes-select2").select2({placeholder:"'. Yii::t('app', 'Please select a channel').'",allowClear: true});');
 
 //$editor = new \app\lib\Editor(['editor'=>$settings['editor']]);
 $editorClass = '\app\plugins\\'. $settings['editor']. '\\'. ucfirst($settings['editor']);
@@ -49,7 +49,7 @@ echo Alert::widget([
         <p><?php echo Yii::t('app', 'Topic Content'); ?> <span class="gray">( <?php echo Yii::t('app', 'Topic content can be empty.'); ?> )</span></p>
         <?php echo $form->field($content, 'content')->textArea(['id'=>'editor', 'maxlength'=>30000])->label(false); ?>
         <?php echo $form->field($model, 'node_id')->dropDownList(array(''=>'')+Node::getNodeList(), ['class'=>'form-control nodes-select2'])->label(false); ?>
-        <div class="new-hot-nodes"><?php echo Yii::t('app', 'Hot Nodes'); ?>：
+        <div class="new-hot-nodes"><?php echo Yii::t('app', 'Hot Channels'); ?>：
         <?php
             $hotNodes = Node::getHotNodes();
             foreach($hotNodes as $hn) {

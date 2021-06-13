@@ -8,7 +8,7 @@
 use yii\helpers\Html;
 use yii\bootstrap4\Alert;
 
-$this->title = Yii::t('app', 'Forum under maintenance');
+$this->title = Yii::t('app', 'Forum under maintenance. Please check back later! If you have emergency situation, please send an email to service@acg-go.com.');
 ?>
 
 <div class="row">
