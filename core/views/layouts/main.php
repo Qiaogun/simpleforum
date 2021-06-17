@@ -57,14 +57,14 @@ if( !$isGuest ) {
             if ($isGuest) {
                 $items = [
                         ['label' => '<i class="fa fa-home"></i>'.Yii::t('app', 'Home'), 'url' => ['topic/index']],
-                        ['label' => '<i class="fa fa-shopping-cart"></li>'.Yii::t('app', 'Shop'),'url' => 'https://acg-go.com'],
+                        ['label' => '<i class="fa fa-shopping-cart"></i>'.Yii::t('app', 'Shop'),'url' => 'https://acg-go.com'],
                         ['label' => '<i class="fas fa-sign-in-alt"></i>'.Yii::t('app', 'Sign in'), 'url' => ['/site/login']],
                         ['label' => '<i class="fa fa-user-plus"></i>'.Yii::t('app', 'Sign up'), 'url' => ['/site/signup']],
                 ];
             } else {
                 $items = [
                         ['label' => '<i class="fa fa-home"></i>'.Yii::t('app', 'Home'), 'url' => ['topic/index']],
-                        ['label' => '<i class="fa fa-shopping-cart"></li>'.Yii::t('app', 'Shop'),'url' => 'https://acg-go.com'],
+                        ['label' => '<i class="fa fa-shopping-cart"></i>'.Yii::t('app', 'Shop'),'url' => 'https://acg-go.com'],
                         ['label' => '<i class="fa fa-user"></i>'.Html::encode($me->username), 'url' => ['user/view', 'username'=>$me->username]],
                         ['label' => '<i class="fa fa-cog"></i>'.Yii::t('app', 'Settings'), 'url' => ['my/settings']],
                         ['label' => '<i class="fas fa-sign-out-alt"></i>'.Yii::t('app', 'Sign out'), 'url' => ['/site/logout'], 'linkOptions' => ['data-method' => 'post']],
