@@ -41,7 +41,7 @@ if( !$isGuest ) {
 <?php $this->beginBody() ?>
     <header class="sticky-top">
       <nav class="navbar navbar-expand-md navbar-dark container-md">
-        <a class="navbar-brand" href="<?php echo Yii::$app->homeUrl; ?>"><?php echo $settings['site_name']; ?></a>
+        <a class="navbar-brand" href="<?php echo Yii::$app->homeUrl; ?>"><img src="https://www.acg-go.com/uploads/b/2cbeb8bb6b9692f4da3bbe447675274895d75fb477fc42448072f31775f0ad99/viewfile_1608249759.png?width=400" style="max-height:50px;height: 100%;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
